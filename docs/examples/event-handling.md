@@ -6,6 +6,7 @@ sidebar_label: Events Handling
 
 import {customFields} from '/docusaurus.config.js';
 import useBaseUrl from '@docusaurus/useBaseUrl';
+import cardImage from '@site/static/img/demo/card.png'
 
 :::note
 This section requires basic knowledge of web development
@@ -13,6 +14,10 @@ This section requires basic knowledge of web development
 
 ## Try it out
 To try this example, you need to run on desktop browser and open the development console to see the logs. <a href={useBaseUrl('/samples/events.html')} target="_blank">Live Demo</a>
+
+You can use the following target image for testing:
+
+<img src={cardImage} width="300" />
 
 We will go through the available events one by one in the following sub-sections. 
 
